@@ -24,6 +24,13 @@ export default function Home() {
 
   return (
     <div className="font-sans min-h-screen flex flex-col items-center justify-center p-6">
+    <a
+  href="/panfleto.pdf"
+  download="panfleto.pdf"
+  className="bg-[#fbbc24] text-black font-bold px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-500 active:scale-95 transition"
+>
+  📥 Baixar Panfleto
+</a>
       <main className="w-full max-w-3xl flex flex-col gap-8">
         <h1 style={{color: "var(--highlight)"}} className="text-4xl md:text-6xl font-bold text-center p-8">
           Quem é Renan Santos?
