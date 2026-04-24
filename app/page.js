@@ -46,6 +46,75 @@ export default function Home() {
             allowFullScreen
           ></iframe>
         </div>
+
+      <h1 style={{color: "var(--highlight)"}} className="text-4xl md:text-6xl font-bold text-center p-8">
+        Siga o Renan nas Redes Sociais
+      </h1>
+    <div className="flex justify-center items-center gap-6 md:gap-14">
+
+      <a href="https://www.youtube.com/@renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src="/youtube.svg"
+          alt="Youtube"
+          height={80}
+          width={80}
+        />
+      </a>
+
+      <a href="https://x.com/RenanSantosMBL" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src={darkMode ? "/xwhite.svg" : "/x.svg"}
+          alt="X"
+          height={80}
+          width={80}
+        />
+      </a>
+
+      <a href="https://www.tiktok.com/@renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src={darkMode ? "/tiktok-dark.svg" : "/tiktok-light.svg"}
+          alt="TikTok"
+          height={80}
+          width={80}
+        />
+      </a>
+
+      <a href="https://www.facebook.com/renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src="/facebook.svg"
+          alt="Facebook"
+          height={80}
+          width={80}
+        />
+      </a>
+
+      <a href="https://renansantosmbl.com/zap" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src="/whatsapp.svg"
+          alt="Whatsapp"
+          height={80}
+          width={80}
+        />
+      </a>
+
+      <a href="https://t.me/renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src="/telegram.svg"
+          alt="Telegram"
+          height={80}
+          width={80}
+        />
+      </a>
+
+      <a href="https://www.instagram.com/renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
+        <Image
+          src="/instagram.svg"
+          alt="Instagram"
+          height={80}
+          width={80}
+        />
+      </a>
+    </div>
         
         <h2 style={{color: "var(--highlight)"}} className="text-3xl font-bold text-center pt-4 pb-4">Livro Amarelo - O maior Projeto de País em formação</h2>
         <div className="text-lg leading-relaxed text-justify flex flex-col md:grid md:grid-cols-2 gap-8 space-y-4">
