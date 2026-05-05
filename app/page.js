@@ -38,7 +38,7 @@ export default function Home() {
         <div className="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-xl shadow-lg">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
-            src="https://www.youtube.com/embed/suJJjWFu_44?si=DNPLIP-5uGUA3QRE&autoplay=1&showinfo=0&autohide=1"
+            src="https://www.youtube.com/embed/suJJjWFu_44?si=DNPLIP-5uGUA3QRE&autoplay=0&showinfo=0&autohide=1"
             title="Vídeo Quem é Renan Santos? Por: Renan Santos"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media;"
@@ -47,15 +47,15 @@ export default function Home() {
           ></iframe>
         </div>
 
-      <h1 style={{color: "var(--highlight)"}} className="text-4xl md:text-6xl font-bold text-center p-8">
+      <h2 style={{color: "var(--highlight)"}} className="text-4xl md:text-6xl font-bold text-center p-8">
         Siga o Renan nas Redes Sociais
-      </h1>
+      </h2>
     <div className="flex justify-center items-center gap-6 md:gap-14">
 
       <a href="https://www.youtube.com/@renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src="/youtube.svg"
-          alt="Youtube"
+          alt="Youtube oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -64,7 +64,7 @@ export default function Home() {
       <a href="https://x.com/RenanSantosMBL" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src={darkMode ? "/xwhite.svg" : "/x.svg"}
-          alt="X"
+          alt="X oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -73,7 +73,7 @@ export default function Home() {
       <a href="https://www.tiktok.com/@renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src={darkMode ? "/tiktok-dark.svg" : "/tiktok-light.svg"}
-          alt="TikTok"
+          alt="TikTok oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -82,7 +82,7 @@ export default function Home() {
       <a href="https://www.facebook.com/renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src="/facebook.svg"
-          alt="Facebook"
+          alt="Facebook oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -91,7 +91,7 @@ export default function Home() {
       <a href="https://renansantosmbl.com/zap" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src="/whatsapp.svg"
-          alt="Whatsapp"
+          alt="Grupo de Whatsapp oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -100,7 +100,7 @@ export default function Home() {
       <a href="https://t.me/renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src="/telegram.svg"
-          alt="Telegram"
+          alt="Grupo do Telegram oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -109,7 +109,7 @@ export default function Home() {
       <a href="https://www.instagram.com/renansantosmbl" target="_blank" rel="noopener noreferrer" className="transform transition duration-300 hover:scale-110">
         <Image
           src="/instagram.svg"
-          alt="Instagram"
+          alt="Instagram oficial do Renan Santos."
           height={80}
           width={80}
         />
@@ -123,7 +123,7 @@ export default function Home() {
           src="/1.png"
           alt="Renan Santos e o Livro Amarelo"
           className="float-right ml-6 mb-4"
-          height={0}
+          height={500}
           width={800}
         />
         </div>
@@ -150,7 +150,7 @@ Renan Santos apoia a <b style={{color: "var(--highlight)"}} className="text-xl">
         <Image
           src="/3.jpg"
           alt="Renan Santos segurando a bandeira do partido Missão"
-          height={0}
+          height={500}
           width={800}
         />
 
@@ -171,7 +171,7 @@ Nascido em 14 de fevereiro de 1984, em São Paulo, Renan Santos iniciou sua atua
         <Image
           src="/2.jpg"
           alt="Renan Santos discursando"
-          height={0}
+          height={500}
           width={800}
         />
         </div>
@@ -180,7 +180,7 @@ Nascido em 14 de fevereiro de 1984, em São Paulo, Renan Santos iniciou sua atua
     <footer className="pt-8 bg-[] w-full flex flex-col items-center justify-center gap-2 opacity-70 hover:opacity-100 transition">
       <Image 
         src="/macambiras.png" 
-        alt="Logo Gatos Macambiras"
+        alt="Logo Gatos Macambiras com link para página do criador do site."
         width={60}
         height={60}/>
       <p className="text-gray-600 dark:text-gray-400 text-sm">
