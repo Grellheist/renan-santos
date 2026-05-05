@@ -176,7 +176,7 @@ Nascido em 14 de fevereiro de 1984, em São Paulo, Renan Santos iniciou sua atua
         />
         </div>
       </main>
-
+  <a href="https://x.com/grecogoianombl">
     <footer className="pt-8 bg-[] w-full flex flex-col items-center justify-center gap-2 opacity-70 hover:opacity-100 transition">
       <Image 
         src="/macambiras.png" 
@@ -184,9 +184,10 @@ Nascido em 14 de fevereiro de 1984, em São Paulo, Renan Santos iniciou sua atua
         width={60}
         height={60}/>
       <p className="text-gray-600 dark:text-gray-400 text-sm">
-        @ Gatos Macambiras {new Date().getFullYear()}
+        @ Gatos Macambiras - GO - {new Date().getFullYear()}
       </p>
     </footer>
+  </a>
 
       <button
         onClick={toggleTheme}
