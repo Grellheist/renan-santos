@@ -116,8 +116,21 @@ export default function Home() {
       </a>
     </div>
         
+        <h2 style={{color: "var(--highlight)"}} className="text-3xl font-bold text-center pt-4 pb-4">Livro Amarelo - O maior Projeto de País em formação</h2>
+        <div className="text-lg leading-relaxed text-justify flex flex-col md:grid md:grid-cols-2 gap-8 space-y-4">
+          <p>O Livro Amarelo, do Partido Missão liderado por Renan Santos, <b style={{color: "var(--highlight)"}} className="text-xl">é um projeto político único no Brasil</b>. Fruto de dois anos de debates com centenas de pesquisadores e intelectuais, esta coleção de fascículos propõe uma reconstrução ousada do país, com foco em reindustrialização, segurança pública, educação de alto padrão e gestão qualificada, <b style={{color: "var(--highlight)"}} className="text-xl">projetando um Brasil próspero até 2050</b>. Combinando liberalismo econômico com um Estado forte em áreas estratégicas, o livro rompe com polarizações tradicionais e oferece uma visão pragmática e inovadora, tornando-se leitura essencial para quem deseja entender e participar da renovação da direita brasileira.</p>
+        <Image
+          src="/1.png"
+          alt="Renan Santos e o Livro Amarelo"
+          className="float-right ml-6 mb-4"
+          height={500}
+          width={800}
+        />
+        </div>
+
+        <div className="md:grid md:grid-cols-2 gap-8">
           <div>
-            <h3 style={{color: "var(--highlight)"}}className="text-3xl md:text-5xl font-bold text-center p-8">
+            <h3 style={{color: "var(--highlight)"}}className="text-2xl font-bold pt-4 pb-4">
               Guerra ao crime organizado e direito penal do inimigo
             </h3>
             <p className="text-justify text-lg">
@@ -125,6 +138,15 @@ Renan Santos apoia a <b style={{color: "var(--highlight)"}} className="text-xl">
             </p>
           </div>
 
+          <div>
+            <h3 style={{color: "var(--highlight)"}}className="text-2xl font-bold pt-4 pb-4">
+              Presidente do Partido Missão
+            </h3>
+            <p className="text-justify text-lg">
+                Renan Santos coordenou um dos processos mais difíceis de se executar no país — <b style={{color: "var(--highlight)"}} className="text-xl">a criação de um partido político</b> — e com recorde de assinaturas em comparação a todos os outros partidos brasileiros, chegando a mais de 800 mil assinaturas coletadas de pessoas que concordam com as ideias do projeto.
+            </p>
+          </div>
+        </div>
         <Image
           src="/3.jpg"
           alt="Renan Santos segurando a bandeira do partido Missão"
